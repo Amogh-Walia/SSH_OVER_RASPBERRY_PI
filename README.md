@@ -23,3 +23,6 @@ rosrun rosserial_python serial_node.py /dev/ttyACM0 <To start the rosserial inst
   rostopic pub servo std_msgs/UInt16  180 <Which publishes the input value  to the arduino board>
  
 All the above commands are given over the SSH Link established and hence serve as a proof of concept of how further projects can be made using this .
+  
+  
+  Demonstration:- https://drive.google.com/file/d/1u9KtiBqCjQrypj0XfLPdblhQjejUoF_Y/view?usp=drivesdk
